@@ -1,0 +1,12 @@
+*.swa
+*.swo
+*.swp
+*.swn
+*~
+*.pyc
+*.pyo
+tmp
+pip-log.txt
+build
+dist
+*.egg-info

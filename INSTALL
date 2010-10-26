@@ -1,0 +1,21 @@
+Thanks for downloading WTF!
+
+Check the ``README`` file for usage details, and the ``LICENSE`` file for the
+licensing terms.
+
+Install
+=======
+
+::
+
+    python setup.py install
+
+
+Dependencies
+============
+
+None.  However, if `IPython <http://ipython.scipy.org/>`_ is installed, WTF
+will use it by default.
+
+Have fun!
+
