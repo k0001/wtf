@@ -5,7 +5,7 @@ from setuptools import setup, find_packages
 
 setup(
     name = "wtf",
-    version = "0.1",
+    version = "0.2-dev",
     description = "Post-mortem PDB handler",
     long_description = open('README', 'rb').read().decode('utf8'),
     url = "http://github.com/k0001/wtf",
