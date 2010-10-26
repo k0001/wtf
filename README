@@ -29,5 +29,16 @@ started on the conflicting line.
     except:
         WTF()
 
-For more info, check the ``wtf.WTFHandler`` class.
+``WTF`` will open the debugger on the same frame the exception was raised.
+However, you might want to start the debugger on the same frame calling ``WTF``.
+In those cases, just replace ``WTF`` with ``WTFIGOH`` (or its shortcut for the
+lazy, ``WTF.IGOH``)::
+
+    from wtf import WTFIGOH
+
+    with WTFIGOH:
+        ... do something that fails on a deeper frame, expect the debugger here ...
+
+
+For more info, read the source code.
 
